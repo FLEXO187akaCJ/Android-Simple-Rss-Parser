@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <DigitalClock
+        android:id="@+id/digitalClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DigitalClock" />
+
+    <ListView
+        android:id="@+id/rss_list"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_weight="0.98" >
+    </ListView>
+
+    <Button
+        android:id="@+id/to_start_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToStartPage"
+        android:text="Перейти на стартовую страницу" />
+
+</LinearLayout>
